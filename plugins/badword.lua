@@ -98,11 +98,11 @@ end
 
 return {
   patterns = {
-  "^([!/])(rw) (.*)$",
-  "^([!/])(addword) (.*)$",
-   "^([!/])(remword) (.*)$",
-    "^([!/])(badwords)$",
-    "^([!/])(clearbadwords)$",
+  "^([!#/])(rw) (.*)$",
+  "^([!#/])(addword) (.*)$",
+   "^([!#/])(remword) (.*)$",
+    "^([!#/])(badwords)$",
+    "^([!#/])(clearbadwords)$",
 "^(.+)$",
 	   
   },
